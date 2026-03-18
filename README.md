@@ -30,11 +30,9 @@ This project uses automatically generated labels. The data is sourced from KITTI
 
 ### Download Dataset (If you do not have the data yet)
 
-```powershell
-python ./scripts/download_kitti_stixels.py
-```
+- **Direct Download Link**: [KITTI Stixel Dataset (5.4GB)](https://www.google.com/search?q=https://drive.usercontent.google.com/download%3Fid%3D13heRc3iRHISjjsg1-ba2qk2fycznqFVc%26authuser%3D0)
 
-*Note: The complete dataset is about 5.4GB. If images already exist in `data/kitti_stixel_images/`, you can skip this step.*
+*Note: If images already exist in `data/kitti_stixel_images/`, you can skip this step.*
 
 ## 🏗 StixelNet Model
 
@@ -58,9 +56,7 @@ python ./train.py --batch_size 16 --num_epoch 50
 
 * Download pre-trained weights:
 
-```powershell
-python ./scripts/download_kitti_stixels_model_weights.py
-```
+    * [Direct Download Link (model.h5)](https://drive.usercontent.google.com/download?id=1xbn6O4GpQ2CjRkh-i-7eNfHDktA06hwY&authuser=0)
 
 * Run the test (please replace the model path accordingly):
 
