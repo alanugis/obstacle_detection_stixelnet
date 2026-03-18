@@ -30,7 +30,7 @@ This project uses automatically generated labels. The data is sourced from KITTI
 
 ### Download Dataset (If you do not have the data yet)
 
-- **Direct Download Link**: [KITTI Stixel Dataset (5.4GB)](https://www.google.com/search?q=https://drive.usercontent.google.com/download%3Fid%3D13heRc3iRHISjjsg1-ba2qk2fycznqFVc%26authuser%3D0)
+- Direct Download Link: [KITTI Stixel Dataset (5.4GB)](https://www.google.com/search?q=https://drive.usercontent.google.com/download%3Fid%3D13heRc3iRHISjjsg1-ba2qk2fycznqFVc%26authuser%3D0)
 
 *Note: If images already exist in `data/kitti_stixel_images/`, you can skip this step.*
 
