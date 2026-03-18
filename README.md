@@ -76,11 +76,6 @@ python ./test_single_image.py --model_path ./saved_models/model.h5
 python ./evaluate_stixelnet.py
 ```
 
-* Reproduce the comparison chart from the paper (Figure 6):
-
-```powershell
-python ./plot_figures.py
-```
 
 ## 📊 Sample Result
 
@@ -135,9 +130,6 @@ This section explains the complete workflow from data preparation to model train
 * **Performance Evaluation**: Execute **`evaluate_stixelnet.py`**.
     * Scans all images in the validation set and calculates the AUC (Area Under Curve) metric.
     * **Output Chart**: `evaluate_stixelnet_results.png` (Contains the PR curve and error distribution).
-* **Plotting Analysis**: Execute **`plot_figures.py`**.
-    * Generates an experimental comparison chart similar to the one in the paper.
-    * **Output Chart**: `figure_6_reproduction.png`.
 
 -----
 
@@ -170,8 +162,6 @@ This section details the functions of each folder and file in the project, helpi
   Testing script. Can load specific model weights, perform inference on a single image, and display visualized prediction results.
 * **`evaluate_stixelnet.py`**
   Used to evaluate model performance metrics on the validation or test set.
-* **`plot_figures.py`**
-  Plotting script. Used to generate model performance analysis charts (e.g., PR curves, error distribution charts).
 
 #### Configuration & Environment
 

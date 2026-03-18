@@ -29,7 +29,7 @@ def evaluate_model():
     
     print("Loading model...")
     model = build_stixel_net()
-    model.load_weights(os.path.join("saved_models", "model-024.h5"))
+    model.load_weights(os.path.join("saved_models", "model-002.h5"))
     
     all_abs_errors = []
     
